@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project({{cookiecuttter.package_name}})
+project({{cookiecutter.package_name}})
 
 add_compile_options(-std=c++14)
 
