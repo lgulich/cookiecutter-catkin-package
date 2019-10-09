@@ -3,7 +3,7 @@
 A cookiecutter template for a simple catkin package using catkin simple.
 
 ### Dependencies
-* [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/readme.html) `sudo apt install cookiecutter`
+* [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/readme.html) (use `sudo apt install cookiecutter`)
 * [catkin-simple](https://github.com/catkin/catkin_simple)
 
 
