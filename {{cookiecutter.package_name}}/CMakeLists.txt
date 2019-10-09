@@ -7,15 +7,15 @@ find_package(catkin_simple REQUIRED)
 
 catkin_simple()
 
-include_directories(
- include
- ${catkin_INCLUDE_DIRS}
-)
+cs_add_library(${PROJECT_NAME} src/${PROJECT_NAME}/{{cookiecutter.class_name_snake_case}}.cpp)
 
-cs_add_library({{cookiecutter.package_name}} src/{{cookiecutter.package_name}}/{{cookiecutter.class_name_snake_case}}.cpp)
-target_link_libraries({{cookiecutter.package_name}} ${catkin_LIBRARIES})
+# Use the following for a header only library:
+# add_library(${PROJECT_NAME} INTERFACE)
+# target_link_libraries(${PROJECT_NAME} INTERFACE ${catkin_LIBRARIES})
 
+# Use the following to add an executable:
 # cs_add_executable(example_executable src/example_executable.cpp)
+# target_link_libraries(example_executable ${PROJECT_NAME})
 
 cs_install()
 
