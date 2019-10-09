@@ -10,6 +10,6 @@ A cookiecutter template for a simple catkin package using catkin simple.
 ### How to use
 * Cookie-clone the repo with
 ```
-  cookiecutter git@github.com:lgulich/cookiecutter-catkin-package.git
+cookiecutter git@github.com:lgulich/cookiecutter-catkin-package.git
 ```
 * Follow the instructions and enter the parameters (or use the default ones)
