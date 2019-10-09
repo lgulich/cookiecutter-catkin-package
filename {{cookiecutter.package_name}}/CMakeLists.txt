@@ -12,7 +12,7 @@ include_directories(
  ${catkin_INCLUDE_DIRS}
 )
 
-cs_add_library({{cookiecutter.package_name}} src/{{cookiecutter.package_name}}/{{cookiecutter.class}}.cpp)
+cs_add_library({{cookiecutter.package_name}} src/{{cookiecutter.package_name}}/{{cookiecutter.class_name_snake_case}}.cpp)
 target_link_libraries({{cookiecutter.package_name}} ${catkin_LIBRARIES})
 
 # cs_add_executable(example_executable src/example_executable.cpp)

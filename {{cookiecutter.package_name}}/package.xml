@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>{{cookiecutter.package_short_description}}</description>
 
-  <maintainer email="{{cookiecutter.maintainer_mail}}">{{cookiecutter.maintainer_name}}</maintainer>
+  <maintainer email="{{cookiecutter.maintainer_email}}">{{cookiecutter.maintainer_name}}</maintainer>
 
   <license>{{cookiecutter.license}}</license>
 
