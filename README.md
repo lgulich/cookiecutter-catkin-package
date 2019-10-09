@@ -3,8 +3,9 @@
 A cookiecutter template for a simple catkin package using catkin simple.
 
 ### Dependencies
-* (cookiecutter)[https://cookiecutter.readthedocs.io/en/latest/readme.html] 'sudo apt install cookiecutter'
-* (catkin-simple)[https://github.com/catkin/catkin_simple]
+* [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/readme.html) 'sudo apt install cookiecutter'
+* [catkin-simple](https://github.com/catkin/catkin_simple)
+
 
 ### How to use
 * Cookie-clone the repo with
