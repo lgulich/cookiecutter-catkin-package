@@ -1,7 +1,7 @@
 #ifndef {{cookiecutter.class_name_all_capital}}_H
 #define {{cookiecutter.class_name_all_capital}}_H
 
-namespace {{cookiecutter.package_name}}
+namespace {{cookiecutter.package_name}} {
 
 class {{cookiecutter.class_name_camel_case}} {
 
@@ -12,5 +12,7 @@ public:
 
 private:
 };
+
+} // namespace {{cookiecutter.package_name}}
 
 #endif
