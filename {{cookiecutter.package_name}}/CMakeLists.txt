@@ -1,13 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
 project({{cookiecutter.package_name}})
 
-add_compile_options(-std=c++14)
-
 find_package(catkin_simple REQUIRED)
+catkin_simple(ALL_DEPS_REQUIRED)
 
-catkin_simple()
-
-cs_add_library(${PROJECT_NAME} src/${PROJECT_NAME}/{{cookiecutter.class_name_snake_case}}.cpp)
+cs_add_library(${PROJECT_NAME} src/{{cookiecutter.class_name_snake_case}}.cpp)
 
 # Use the following for a header only library:
 # add_library(${PROJECT_NAME} INTERFACE)
@@ -18,5 +15,4 @@ cs_add_library(${PROJECT_NAME} src/${PROJECT_NAME}/{{cookiecutter.class_name_sna
 # target_link_libraries(example_executable ${PROJECT_NAME})
 
 cs_install()
-
 cs_export()
