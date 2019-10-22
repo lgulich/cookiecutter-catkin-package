@@ -1,11 +1,7 @@
 {
     "package_name": "template_package",
-    "package_short_description": "A template catkin package for demonstration",
-    "maintainer_name": "Lionel Gulich",
-    "maintainer_email": "lgulich@ethz.ch",
-    "license": "Proprietary",
+    "package_short_description": "A template catkin package for demonstration.",
     "class_name_snake_case": "foo_bar",
     "class_name_camel_case": "FooBar",
     "class_name_all_capital": "FOO_BAR"
-
 }
