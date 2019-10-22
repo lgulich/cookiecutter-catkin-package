@@ -15,7 +15,7 @@ cookiecutter git@github.com:lgulich/cookiecutter-catkin-package.git
 * Follow the instructions and enter the parameters (or use the default ones)
 
 ### Advanced
-If you want to use a different template use
+If you do not want to use the default template, then branch off and use
 ```
 cookiecutter git@github.com:lgulich/cookiecutter-catkin-package.git -c BRANCH_NAME
 ```
