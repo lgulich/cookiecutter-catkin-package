@@ -1,5 +1,6 @@
 {
     "package_name": "template_package",
+    "package_name_all_capital": "TEMPLATE_PACKAGE",
     "package_short_description": "A template catkin package for demonstration.",
     "class_name_snake_case": "foo_bar",
     "class_name_camel_case": "FooBar",
