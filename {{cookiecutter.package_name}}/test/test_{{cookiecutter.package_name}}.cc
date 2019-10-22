@@ -6,7 +6,7 @@ class {{cookiecutter.class_name_camel_case}}Test : public ::testing::Test {
  protected:
   {{cookiecutter.class_name_camel_case}}Test() = default;
 
-  //static constexpr double kNullConstant = 0;
+  static constexpr double kNullConstant = 0;
 };
 
 TEST_F(
