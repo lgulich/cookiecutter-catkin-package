@@ -1,10 +1,10 @@
 #include <sevencpp_core/test/testing_entrypoint.h>
 
-namespace {{cookiecutter.package_name}}
+namespace {{cookiecutter.package_name}} {
 
 class {{cookiecutter.class_name_camel_case}}Test : public ::testing::Test {
  protected:
-  {{cookiecutter.class_name_camel_case}}() = default;
+  {{cookiecutter.class_name_camel_case}}Test() = default;
 
   //static constexpr double kNullConstant = 0;
 };
