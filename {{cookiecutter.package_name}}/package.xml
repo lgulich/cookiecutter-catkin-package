@@ -3,9 +3,13 @@
   <name>{{cookiecutter.package_name}}</name>
   <version>0.0.0</version>
   <description>{{cookiecutter.package_short_description}}</description>
-  <maintainer email="{{cookiecutter.maintainer_email}}">{{cookiecutter.maintainer_name}}</maintainer>
-  <license>{{cookiecutter.license}}</license>
+  <maintainer email="developers@sevensense.ch">sevensense-developers</maintainer>
+  <license>Closed</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <buildtool_depend>catkin_simple</buildtool_depend>
+  
+  <build_depend>sevencpp_build</build_depend>
+
+  <depend>sevencpp_core</depend>
 </package>
