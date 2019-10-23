@@ -1,5 +1,5 @@
-#ifndef {{cookiecutter.package_name_all_capital}}{{cookiecutter.class_name_all_capital}}_H_
-#define {{cookiecutter.package_name_all_capital}}{{cookiecutter.class_name_all_capital}}_H_
+#ifndef {{cookiecutter.package_name_all_capital}}_{{cookiecutter.class_name_all_capital}}_H_
+#define {{cookiecutter.package_name_all_capital}}_{{cookiecutter.class_name_all_capital}}_H_
 
 namespace {{cookiecutter.package_name}} {
 
