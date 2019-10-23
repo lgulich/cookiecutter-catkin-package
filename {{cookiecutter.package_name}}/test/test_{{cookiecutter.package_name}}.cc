@@ -1,5 +1,7 @@
 #include <sevencpp_core/test/testing_entrypoint.h>
 
+#include "{{cookiecutter.package_name}}/{{cookiecutter.class_name_snake_case}}.h"
+
 namespace {{cookiecutter.package_name}} {
 
 class {{cookiecutter.class_name_camel_case}}Test : public ::testing::Test {
