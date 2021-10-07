@@ -1,6 +1,6 @@
 {
     "package_name": "template_package",
-    "package_short_description": "A template catkin package for demonstration.",
+    "package_short_description": "A short description for your package",
     "class_name_snake_case": "foo_bar",
     "class_name_camel_case": "FooBar",
     "class_name_all_capital": "{{cookiecutter.class_name_snake_case|upper}}",
